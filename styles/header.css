@@ -1,0 +1,87 @@
+header {
+    width: 100%;
+    padding: 28px 5%;
+}
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+
+.nav-item:hover a {
+    border-bottom: 3px solid blueviolet;
+}
+
+/* O botão de menu ficará oculto por padrão */
+#mobile-btn {
+    display: none;
+}
+
+/* Menu móvel ficará oculto até que a classe 'active' seja aplicada */
+#mobile_menu {
+    display: none; /* Inicialmente escondido */
+}
+
+
+/* Comportamento para telas menores que 700px */
+@media screen and (max-width: 600px) {
+    /* O menu e os itens de navegação ficam ocultos por padrão */
+    .nav-list , .nav-item a , .btn-default {
+        display: none;
+    }
+   
+
+    /* Exibir o botão de menu em telas pequenas */
+    #mobile-btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: 400ms ease;
+    }
+
+    /* Exibir o menu quando a classe 'active' for aplicada */
+    #mobile_menu.active {
+        display: block; /* Torna o menu visível */
+        position: absolute;
+        top: 60px; /* Ajuste para aparecer logo abaixo do menu */
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    /* Exibir os itens dentro do menu quando a classe 'active' for aplicada no menu */
+    #mobile_menu.active .nav-list,
+    #mobile_menu.active .nav-item a,
+    #mobile_menu.active .btn-default {
+        display: block; /* Exibir os itens dentro do menu quando o menu estiver ativo */
+    }
+
+
+}
