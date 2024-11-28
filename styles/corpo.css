@@ -1,0 +1,91 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 82px);
+}
+
+#descrição{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#title{
+    font-size: 3.5rem;
+}
+
+#descrição #title span{
+    color:  rgb(144, 63, 219);
+}
+#descrição  p{
+    font-size: 1.2rem;
+}
+
+
+#banner{
+    width: 60%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+#img_banner{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#btn_descrição{
+    display: flex;
+    gap: 20px;
+    border: none;
+}
+
+#btn_descrição :hover{
+    transform: scale(1.2);
+    transition: 500ms ease;
+
+
+}
+
+#btn_descrição a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn-default3{
+    background-color: rgb(144, 63, 219);
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.btn-default3:hover{
+    background-color: blueviolet;
+}
+
+#phone_button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: rgb(144, 63, 219);
+    gap: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms ease;
+}
+
+#phone_button i {
+    background-color: rgb(144, 63, 219);
+}
+
+#phone_button:hover{
+    background-color: blueviolet;
+    transform: scale(1.2);
+}
+
+
+#phone_button i:hover {
+    background-color: blueviolet;
+}

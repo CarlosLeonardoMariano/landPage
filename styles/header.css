@@ -72,8 +72,10 @@ header {
         top: 60px; /* Ajuste para aparecer logo abaixo do menu */
         left: 0;
         width: 100%;
-        background-color: transparent;
+        background-color:white;
         text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
     }
 
     /* Exibir os itens dentro do menu quando a classe 'active' for aplicada no menu */
