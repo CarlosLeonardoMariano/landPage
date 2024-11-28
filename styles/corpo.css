@@ -136,17 +136,16 @@ height: 100vh;
 
 #btn_descrição{
     display: flex;
-    gap: 30px;
     border: none;
     width: 100%;
-    text-align: center;;
+    text-align: center;
 }
 
 #btn_descrição a {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 10%;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: center;
     margin: auto;
     margin-top: 20%;
