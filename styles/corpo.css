@@ -58,6 +58,10 @@
     background-color: rgb(144, 63, 219);
     padding: 10px 15px;
     border-radius: 25px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .btn-default3:hover{

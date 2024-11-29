@@ -25,6 +25,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    color: white;
     background-color: rgb(171, 111, 228);
     border-radius: 25px;
     cursor: pointer;

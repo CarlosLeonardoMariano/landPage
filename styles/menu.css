@@ -1,0 +1,115 @@
+.menu_section{
+    background-color: #cdcdce;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+
+}
+.menu_section .produto{
+    box-sizing: border-box;
+    flex: 0 0 47%;
+}
+
+
+
+
+.h2_menu{
+    background-color: #cdcdce;
+    text-align: center;
+}
+
+.produto{
+    background-color: white;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 1px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 15 px 1px rgba(0, 0, 0 , 0.5);
+}
+
+
+.produto:hover{
+transform: scale(1.1);
+transition: 500ms ease;
+}
+
+.h3_menu{
+    background-color: white;
+}
+
+.span_menu{
+    background-color: white;
+
+}
+
+.pagamentos{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.pagamentos button{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(171, 111, 228);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pagamentos:hover{
+    transform: scale(1.1);
+    transition: 500ms ease;
+}
+
+.pagamentos button i {
+    background-color: rgb(171, 111, 228);
+    color: white;
+    font-size: 20px;
+}
+
+.pagamentos button  h4 {
+    background-color: rgb(171, 111, 228);
+    color: white;
+    font-size: 18px;
+}
+
+.img_menu:hover{
+    transition: 500ms ease;
+    transform: scale(1.1);
+}
+
+
+
+.Avaliações{
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+
+.h3_avaliações{
+    font-size: 2.0rem;
+}
+
+.btn-default5{
+    background-color: rgb(144, 63, 219);
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+
+    
+}
+
+
+.btn-default5:hover{
+    background-color: blueviolet;
+    transition: 500ms ease;
+    transform: scale(1.2);
+}
