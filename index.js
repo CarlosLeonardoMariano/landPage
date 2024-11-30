@@ -9,3 +9,6 @@ document.getElementById("remover_header").addEventListener("click", function() {
     document.getElementById("backdrop").style.display = "none";  // Oculta o fundo
     document.getElementById('mobile-btn').style.display = "block"
 });
+
+
+
