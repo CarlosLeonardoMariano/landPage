@@ -6,6 +6,7 @@
     width: 100%;
 
 }
+
 .menu_section .produto{
     box-sizing: border-box;
     flex: 0 0 47%;
@@ -17,6 +18,21 @@
 .h2_menu{
     background-color: #cdcdce;
     text-align: center;
+    opacity: 0;
+transform: translateX(100%);
+transition: all 500ms;
+
+
+}
+
+
+.show4{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 1000ms;
+    filter: blur(0);
+
+
 }
 
 .produto{
@@ -88,14 +104,28 @@ transition: 500ms ease;
 
 /* PARTE DAS AVALIAÇÕES */
 
-#testeavaliacao{
-    min-height: calc(100vh-82px);
+.testeavaliacao{
+    min-height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    opacity: 0;
+transform: translateY(10%);
+filter: blur(15px);
+transition: all 1s;
 }
 
+
+
+.show6{
+    opacity: 1;
+    transform: translateY(0%);
+    transition: all 1s;
+    filter: blur(0);
+
+
+}
 
 
 .Avaliações{

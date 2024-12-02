@@ -16,7 +16,8 @@ section{
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #f0f1f3;}
+    background-color: #f0f1f3;
+overflow-x: hidden;}
 
 
 .btn-default{

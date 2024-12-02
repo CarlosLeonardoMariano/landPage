@@ -1,6 +1,20 @@
-#home{
+.home{
     display: flex;
-    min-height: calc(100vh - 82px);
+    min-height: calc(100vh);
+    opacity: 0;
+    filter: blur(25px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+
+
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+    transition: all 1.5s;
+
 }
 
 #descrição{
@@ -23,17 +37,17 @@
 }
 
 
-#banner{
+.banner{
     width: 60%;
     display: flex;
     align-items: start;
     justify-content: end;
 }
 
+
 #img_banner{
     width: 100%;
-    height: 100%;
-    
+    height: 100%;    
 }
 
 #btn_descrição{
