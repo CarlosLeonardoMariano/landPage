@@ -99,7 +99,7 @@ background-color: rgb(144, 63, 219) ;
 
 
 /* Comportamento para telas menores que 700px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 
     /* O menu e os itens de navegação ficam ocultos por padrão */
     .nav-list , .nav-item a , .btn-default {
