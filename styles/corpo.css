@@ -168,13 +168,12 @@ height: 100vh;
 }
 
 #btn_descrição a {
-    font-size: 13px;
-    margin-top: 10%;
+    font-size: 14px;
     font-weight: 600;
     padding: 10px 9px;
     text-align: center;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 15%;
     
 }
 

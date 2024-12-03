@@ -269,6 +269,14 @@ background-color: white;
 }
 
 
+.img_cheff_logo{
+    display: none;
+}
+
+.copyRight2{
+    display: none;
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -288,7 +296,7 @@ background-color: white;
 
     .h2_menu{
         width: 100%;
-        margin-top: 50px;
+        margin-top: 8rem;
     }
 
     .produto{
@@ -353,9 +361,41 @@ background-color: white;
             display: none;
         }
 
+        .feedbacks{
+            width: 100%;
+        }
+
+        .avatar img {
+            width: 40px;
+            height: 40px;
+            background-color: white
+            ;margin-right: 10px;
+        }
+
+
+        .img_cheff_logo{
+            display: flex;
+            width: 350px;
+            height: auto
+        }
 
         footer{
-            margin-top: 155rem;
-            position: absolute;
+            margin-top: auto; /* Empurra o rodapé para a parte inferior */
+            width: 100%;   
         }
+
+        #footer_itens{
+            width: 100%;
+        }
+
+        #copyRight{
+            display: none;
+        }
+
+        .copyRight2{
+            display: block;
+            padding-left: 35px;
+        }
+
+    
 }
