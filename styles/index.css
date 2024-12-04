@@ -115,8 +115,8 @@ overflow-x: hidden;}
 @media screen and (max-width:550px){
 
     *{
-        margin: 5px;
-        padding: 5px;
+        margin: 0px;
+        padding: 0px;
         box-sizing: border-box;
         font-family: "Poppins", sans-serif;
         background-color: #f0f1f3;
