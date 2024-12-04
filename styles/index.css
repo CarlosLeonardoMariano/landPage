@@ -115,13 +115,7 @@ overflow-x: hidden;}
 @media screen and (max-width: 550px){
 
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    background-color: #f0f1f3;
-}
+
 
 section{
     padding: 5px;
@@ -131,6 +125,7 @@ section{
 body{
     font-family: "Poppins", sans-serif;
     background-color: #f0f1f3;
+    width:100%
 }
 
 }
