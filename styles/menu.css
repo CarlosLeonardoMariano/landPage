@@ -291,12 +291,12 @@ background-color: white;
 
     .menu_section .produto{
         box-sizing: border-box;
-        flex: 95%;
+        flex: 100%;
     }
 
     .h2_menu{
         width: 100%;
-        margin-top: 8rem;
+        margin-top: 9rem;
     }
 
     .produto{

@@ -112,20 +112,19 @@ overflow-x: hidden;}
 
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width:550px){
 
 
 
 
 section{
-    padding: 5px;
+    padding: 28px 5%;
 }
 
 
 body{
     font-family: "Poppins", sans-serif;
     background-color: #f0f1f3;
-    width:100%
-}
+width:100%}
 
 }
